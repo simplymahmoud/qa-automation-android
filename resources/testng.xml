@@ -1,0 +1,120 @@
+<suite name="Noon App Automation for Android" >
+
+	<test name="Product Details Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.ProductDetailsTest" />
+		</classes>
+	</test>
+
+	<test name="Address Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.AddAddressTest" />
+		</classes>
+	</test>
+
+    <test name="Add card in wallet Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.AddCardTest" />
+        </classes>
+    </test>
+
+    <test name="Menu Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.SideBarMenuTest" />
+        </classes>
+    </test>
+
+	<test name="Search Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.SearchTest" />
+		</classes>
+	</test>
+
+	<test name="Cart Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.CartTest" />
+		</classes>
+	</test>
+
+	<test name="Checkout Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.CheckoutCODTest" />
+		</classes>
+	</test>
+
+    <test name="Checkout Card Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.CheckoutCardTest" />
+		</classes>
+	</test>
+
+    <test name="Checkout default address Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.CheckoutDefaultAddressTest" />
+        </classes>
+    </test>
+
+
+    <test name="Buy now Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.BuyNowTest" />
+        </classes>
+    </test>
+
+	<test name="Signin Email Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.SigninEmailTest" />
+		</classes>
+	</test>
+
+    <test name="Signin Mobile Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.SigninMobileTest" />
+        </classes>
+    </test>
+
+	<test name="Categories Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.CategoriesTest" />
+		</classes>
+	</test>
+
+    <test name="Profile Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.ProfileTest" />
+        </classes>
+    </test>
+
+	<!--<test name="Register new user Test" allow-return-values="true">-->
+		<!--<classes>-->
+			<!--<class name="com.noon.mobileapp.RegisterEmailTest" />-->
+		<!--</classes>-->
+	<!--</test>-->
+
+    <test name="Add address in checkout Test" allow-return-values="true">
+		<classes>
+			<class name="com.noon.mobileapp.AddAddressInCheckoutTest" />
+		</classes>
+	</test>
+
+
+    <test name="Add card in checkout Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.AddCardInCheckoutTest" />
+        </classes>
+    </test>
+
+    <test name="Remove card in wallet Test" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.RemoveCardTest" />
+        </classes>
+    </test>
+
+   <test name="Login wirh FB" allow-return-values="true">
+        <classes>
+            <class name="com.noon.mobileapp.SigninFBTest" />
+        </classes>
+    </test>
+
+</suite>
+
